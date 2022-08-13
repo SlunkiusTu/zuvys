@@ -1,23 +1,16 @@
-// A mock function to mimic making an async request for data
-export function fetchSectors() {
-  return new Promise((resolve) =>
-    setTimeout(
-      () =>
-        resolve([
-          {
-            title: "Sector 1",
-            pictureUrl: "image/sector1.jpg",
-          },
-          {
-            title: "Sector 2",
-            pictureUrl: "image/sector2.jpg",
-          },
-          {
-            title: "Sector 3",
-            pictureUrl: "image/sector3.jpg",
-          },
-        ]),
-      500
-    )
-  );
-}
+export const getSectors = () => {
+  return [
+    {
+      id: 1,
+      name: "Sektorius 1",
+      description: "Aprasymas sektoriaus vienas",
+      url: "https://sveikata.tv3.lt/uploads/modules/articles/580x300/2015/05/dangisko-grozio-nuotraukos-foto-2704.jpg?t=1431017964",
+    },
+    {
+      id: 11,
+      name: "Sektorius 2",
+      description: "Aprasymas sektoriaus vienas",
+      url: "https://sveikata.tv3.lt/uploads/modules/articles/580x300/2015/05/dangisko-grozio-nuotraukos-foto-2704.jpg?t=1431017964",
+    },
+  ];
+};

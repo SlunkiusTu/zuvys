@@ -9,7 +9,7 @@
 
 .hero:before {
   content: "";
-  background: url(images/pexels-lumn-294674.jpg) no-repeat center/cover;
+  background: url(../../image/pexels-lumn-294674.jpg) no-repeat center/cover;
   height: 100%;
   width: 100%;
   position: absolute;
