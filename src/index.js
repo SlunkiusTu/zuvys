@@ -11,8 +11,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="sectors" element={<Sectors />} />
-        <Route path="sector" element={<Sector />} />
+        <Route path="/" element={<Sectors />} />
+        <Route path="/sectors/:sectorId" element={<Sector />} />
       </Route>
     </Routes>
   </BrowserRouter>

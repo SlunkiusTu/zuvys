@@ -1,5 +1,5 @@
 import "./sectors.css";
-import { getSectors } from "./SectorsApi";
+import { getSectors } from "./sectorsApi";
 import { Link } from "react-router-dom";
 
 const Sectors = (props) => {
